@@ -5,19 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="srtylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.0/modern-normalize.min.css">
 </head>
 <body>
-    <header class="header-main">
-        <div class="container">
+    <header class="page-header">
+        <div class="header-container">
         <nav class="nav-container">
             <a href="./index.html" class="logo">Web<span class="logo-span">Studio</span></a>
             <ul class="nav-link">
@@ -36,18 +36,23 @@
                  </li>
             </ul>
         </address>
+        <button class="burger-btn" type="button">
+            <svg class="burger-icon" width="24" height="24">
+                <use href=""></use>
+            </svg>
+        </button>
         </div>
     </header>
     <main>
         <!-- Effective solutions -->
-        <section class="solutions">
+        <section class="hidden">
             <div class="container">
             <h1 class="main-page-title">Effective Solutions for Your Business</h1>
             <button type="button" class="button">Order Service</button>
             </div>
         </section>
         <!-- Our advantages -->
-        <section class="advantages">
+        <section class="hidden">
             <div class="container">
             <h2 class="visually-hidden">Our advantages</h2>
             <ul class="advantages-list">
@@ -92,7 +97,7 @@
             </div>
         </section>
         <!-- Our Team -->
-        <section class="our-team">
+        <section class="hidden">
             <div class="container">
             <h2 class="team-title">Our Team</h2>
             <ul class="our-team-item">
@@ -248,7 +253,7 @@
             </div>
         </section>
         <!-- Our portfolio -->
-         <section class="our-portfolio">
+         <section class="hidden">
             <div class="container">
             <h2 class="our-portfolio-title">Our Portfolio</h2>
             <ul class="portfolio-items">
@@ -327,7 +332,7 @@
         </div>
          </section>
     </main>
-    <footer class="footer-cont">
+    <footer class="hidden">
         <div class="container">
             <div class="logo-info">
                     <a href="./index.html" class="logo">Web<span class="logo-span">Studio</span></a>
