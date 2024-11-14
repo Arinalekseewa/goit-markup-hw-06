@@ -459,6 +459,10 @@ header .logo {
         line-height: 120%;
      }
 
+    .advantages-image-box .icon {
+        fill: #2E2F42;
+    }
+
     .advantages-text {
         font-weight: 400;
         font-size: 16px;
@@ -480,9 +484,6 @@ header .logo {
         justify-content: center;
     }
 
-    .advantages-image-box .icon {
-        fill: #2E2F42;
-    }
 }
 
 /* Our Team */
